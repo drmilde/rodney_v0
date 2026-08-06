@@ -9,3 +9,4 @@ Eingebaute Sensoren
   - USB Kameras
   - Touchsenoren
   - Radarsenesoren zur Detection von Menschen
+  - Richtungsmikrofone
