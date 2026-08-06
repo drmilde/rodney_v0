@@ -1,1 +1,1 @@
-
+web server to test the orientation of the gyro mpu6050
