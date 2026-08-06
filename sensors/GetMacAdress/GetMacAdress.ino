@@ -20,18 +20,18 @@ void readMacAddress(){
 }
 
 void setup(){
-  Serial.begin(9600);
-  Serial.println("Hallo");
+  Serial.begin(115200);
+  Serial.println("Checking your device");
 
-  //WiFi.mode(WIFI_STA);
-  //WiFi.STA.begin();
+  WiFi.mode(WIFI_STA);
+  WiFi.STA.begin();
 
-  //Serial.print("[DEFAULT] ESP32 Board MAC Address: ");
-  //readMacAddress();
+  Serial.print("[DEFAULT] ESP32 Board MAC Address: ");
+  readMacAddress();
 }
  
 void loop(){
  // do nothing
-  Serial.println("Hallo");
+ // Serial.println("Hallo");
  delay(200);
 }
