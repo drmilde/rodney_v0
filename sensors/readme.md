@@ -10,3 +10,5 @@ Eingebaute Sensoren
   - Touchsenoren
   - Radarsenesoren zur Detection von Menschen
   - Richtungsmikrofone
+  - Interne Sensoren der DDSM Räder (Geschwindigkeit, Temperatur, Stromstärke)
+  - GPS Sensoren mit RTK
